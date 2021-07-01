@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class CubeMovement : MonoBehaviour
 {
-    /*public Rigidbody RB;
+    public Rigidbody RB;
     public float speed;
     public bool jumpKeyWasPressed;
 
     // Start is called before the first frame update
     void Start()
     {
-        RB = GetComponent<Rigidbody>(); 
-            
-    } 
+        RB = GetComponent<Rigidbody>();
+
+    }
     // Update is called once per frame
     void Update()
     {
-       if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            jumpKeyWasPressed=true;
+            jumpKeyWasPressed = true;
         }
     }
     void FixedUpdate()
@@ -28,7 +28,13 @@ public class CubeMovement : MonoBehaviour
         {
             RB.AddForce(new Vector3(0, 0, speed));
         }
-    }*/
+    }
+   
+    
+    
+    /*
+    
+    
     private CharacterController cc;
     public Vector3 ccMoveForward, ccMoveSide;
 
@@ -43,5 +49,5 @@ public class CubeMovement : MonoBehaviour
         {
             cc.Move(ccMoveForward);
         }
-    }
+    }*/
 }
